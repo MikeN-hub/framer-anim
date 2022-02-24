@@ -1,12 +1,12 @@
-import { motion } from 'framer-motion'
 import logo from './logo.svg'
 import './App.css'
 import Filter from './components/Filter'
+import {data} from './data'
 
 function App() {
   return (
     <div className='App'>
-
+      <Filter data={data}/>
     </div>
   )
 }
